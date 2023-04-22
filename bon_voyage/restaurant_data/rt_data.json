@@ -1,0 +1,55 @@
+[
+    {
+        "name": "The Taj Hotel",
+        "type": "Restaurants",
+        "location": "Mumbai",
+        "ratingsAverage": "4.7",
+        "customerReview": "good",
+        "capacity": "100"
+    }
+    ,
+    {
+        "name": "The Kanpur Hotel",
+        "type": "Restaurants",
+        "location": "Kanpur",
+        "ratingsAverage": "4.5",
+        "customerReview": "normal",
+        "capacity": "105"
+    }
+    ,
+    {
+        "name": "The Benguluru Hotel",
+        "type": "Restaurants",
+        "location": "Bangalore",
+        "ratingsAverage": "4.8",
+        "customerReview": "nice",
+        "capacity": "80"
+    }
+    ,
+    {
+        "name": "The Delhi Hotel",
+        "type": "Restaurants",
+        "location": "Delhi",
+        "ratingsAverage": "4.3",
+        "customerReview": "good",
+        "capacity": "60"
+    }
+    ,
+    {
+        "name": "The Gurgaon Hotel",
+        "type": "Hotels",
+        "location": "Gurgaon",
+        "ratingsAverage": "4.5",
+        "customerReview": "very good",
+        "capacity": "120"
+    }
+    ,
+    {
+        "name": "Delhi 2",
+        "type": "Hotels",
+        "location": "Delhi",
+        "ratingsAverage": "4.5",
+        "customerReview": "excellent",
+        "capacity": "115"
+    }
+]

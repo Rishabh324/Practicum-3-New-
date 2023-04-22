@@ -39,7 +39,7 @@ const Header = ({ setHotelData, onLoad, setIsLoading }) => {
           <TextField
             id="standard-basic"
             // label="Search"
-            style={{ margin: '0 20px', backgroundColor: 'orange' }}
+            style={{ margin: '0 20px', backgroundColor: 'orange', '&:hover': { backgroundColor: 'orange' } }}
             value={city}
             onChange={(e) => setCity(e.target.value)}
             onKeyPress={(e) => {

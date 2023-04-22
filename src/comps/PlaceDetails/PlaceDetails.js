@@ -18,7 +18,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
         title={place.name}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5">{place.hotel_name}</Typography>
+        <Typography gutterBottom className={classes.chamak} variant="h5">{place.hotel_name}</Typography>
         <Box display="flex" justifyContent="space-between" my={2}>
           <Typography component="legend">{place.review_score_word ? place.review_score_word : 'Unrated'}</Typography>
           <Typography component="legend">{place.review_nr} review{place.num_reviews > 1 && 's'}</Typography>
@@ -26,7 +26,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
         <Box display="flex" justifyContent="space-between">
           <Typography component="legend">Price</Typography>
           <Typography gutterBottom variant="subtitle1">
-            Rs {place.min_total_price}
+            Rs {Number(place.min_total_price)}
           </Typography>
         </Box>
         {/* <Box display="flex" justifyContent="space-between">
